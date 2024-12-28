@@ -70,11 +70,48 @@ AdventureWorks_Customers.csv: Contains customer information, including FirstName
   * Analysis of income levels, specifically targeting higher-earning customers with advanced education.
 
 # Project 3: 
-# Title: ( Weather Data Analysis with Pandas ): 
+# Title: ( Weather Data Analysis with Pandas ): https://github.com/Fatima106-collab/Python-Projects/blob/main/Project%203.ipynb
+* Description
+This project focuses on analyzing a weather dataset using Python's Pandas library. It demonstrates data exploration, cleaning, and statistical analysis to extract meaningful insights. The project includes solving real-world data analysis questions and performing advanced data filtering and aggregation.
 
+* Key Features
+   * Data Exploration: Identified unique values in columns such as Weather and Wind Speed.
+   * Displayed data counts, unique counts, and descriptive statistics.
 
+* Data Cleaning and Transformation:
+   * Renamed columns for clarity (e.g., Weather renamed to Weather Condition).
+   * Checked for missing values and summarized the dataset’s completeness.
 
+* Statistical Analysis:
+  * Calculated statistical measures such as mean, standard deviation, and variance for key columns like Pressure and Relative Humidity.
+  * Grouped data to analyze specific weather conditions and patterns.
 
+* Data Filtering:
+  * Extracted specific records based on conditions such as:
+    * Weather being clear.
+    * Wind Speed above 24 km/h and visibility at 25 km.
+    * Visibility above 40 km or specific weather conditions like fog.
+
+* Advanced Querying:
+ * Answered practical queries including:
+   * Instances where Weather is clear and Relative Humidity is greater than 50.
+   *  Records with combined conditions on weather and visibility.
+
+* Technologies Used
+Python
+Pandas
+
+* Dataset
+Weather DataSet.csv: Contains weather-related data, including Weather, Wind Speed_km/h, Visibility_km, Rel Hum_%, and Press_kPa.
+
+* Key Insights
+  * Extracted and analyzed instances of specific weather conditions like clear weather or fog.
+  * Identified correlations between weather conditions, visibility, and humidity.
+  * Demonstrated data manipulation techniques and insightful querying.
+
+* Future Improvements
+  * Add visualizations to represent weather patterns and trends.
+  * Integrate data from multiple weather datasets for comparative analysis.
 
 
 
