@@ -109,9 +109,66 @@ Weather DataSet.csv: Contains weather-related data, including Weather, Wind Spee
   * Identified correlations between weather conditions, visibility, and humidity.
   * Demonstrated data manipulation techniques and insightful querying.
 
-* Future Improvements
-  * Add visualizations to represent weather patterns and trends.
-  * Integrate data from multiple weather datasets for comparative analysis.
+# Project 4: 
+# Title: ( Title: Netflix Data Analysis )
+* Description
+This project involves analyzing a Netflix dataset to uncover insights about TV shows and movies available on the platform. The analysis includes data cleaning, exploration, and answering key questions about Netflix's content library. Visualizations are also employed to represent trends effectively.
+
+* Key Features
+   * Data Exploration and Cleaning:
+   *  Inspected the dataset for duplicates and null values.
+   *  Removed duplicate entries to ensure data accuracy.
+   *  Used Seaborn's heatmap to visualize null values in the dataset.
+
+* Date Parsing and Transformation:
+Converted Release_Date into a datetime format to extract meaningful time-based insights.
+
+* Data Analysis and Filtering:
+  * Answered questions like:
+* "What is the show ID and director for 'House of Cards'?"
+* "How many movies and TV shows were released each year?"
+* "What are the top 10 directors contributing to Netflix's library?"
+* "Which titles were TV shows released in India only?"
+* "How many movies or shows feature Tom Cruise?"
+Filtered records based on specific conditions like category, type, and country.
+
+* Visualizations:
+  * Created bar graphs to display:
+* Number of TV shows and movies released by year.
+* Distribution of content categories (e.g., movies vs. TV shows).
+* Visualized data distributions and trends using Seaborn's count plots and Pandas plotting.
+
+* Technologies Used
+   *  Python
+   *  Pandas
+   *  Seaborn
+   *  Matplotlib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
