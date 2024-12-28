@@ -109,7 +109,7 @@ Weather DataSet.csv: Contains weather-related data, including Weather, Wind Spee
   * Identified correlations between weather conditions, visibility, and humidity.
   * Demonstrated data manipulation techniques and insightful querying.
 
-# Project 4: 
+# Project 4: https://github.com/Fatima106-collab/Python-Projects/blob/main/Netflix.ipynb
 # Title: ( Title: Netflix Data Analysis )
 * Description
 This project involves analyzing a Netflix dataset to uncover insights about TV shows and movies available on the platform. The analysis includes data cleaning, exploration, and answering key questions about Netflix's content library. Visualizations are also employed to represent trends effectively.
