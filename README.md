@@ -145,8 +145,32 @@ Filtered records based on specific conditions like category, type, and country.
    *  Matplotlib
 
 
+# Project 5: https://github.com/Fatima106-collab/Python-Projects/blob/main/Netflix.ipynb
+# Title: ( Title: Car Data Analysis )
+* Description
+This project explores and processes a dataset of cars using Python's Pandas library. It demonstrates key data analysis techniques, including cleaning, filtering, and transformation, to derive actionable insights and prepare data for further analysis.
 
+* Key Features
+* Data Exploration:
+  * Loaded and reviewed the dataset's structure, size, and previewed records.
+  * Checked for missing values across all columns.
 
+* Data Cleaning:
+ * Addressed missing values in the Cylinders column by replacing them with the mean value.
+
+* Data Analysis:
+  * Analyzed the frequency of car manufacturers (Make).
+
+* Filtered records based on specific criteria:
+    * Cars originating from Asia or Europe.
+    * Cars with Weight greater than 4000.
+
+* Data Transformation:
+   * Applied a lambda function to simulate a hypothetical increase in city mileage (MPG_City) by adding 3 to each value.
+
+* Technologies Used
+    * Python
+    * Pandas
 
 
 
