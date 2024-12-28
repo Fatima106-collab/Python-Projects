@@ -69,6 +69,10 @@ AdventureWorks_Customers.csv: Contains customer information, including FirstName
   * Distribution and characteristics of customers based on their education levels.
   * Analysis of income levels, specifically targeting higher-earning customers with advanced education.
 
+# Project 3: 
+# Title: ( Weather Data Analysis with Pandas ): 
+
+
 
 
 
