@@ -248,3 +248,38 @@ This project demonstrates practical use of Python and Pandas for data exploratio
 
 It also provides a foundation for more advanced analysis and visualization of weather patterns.
 
+---
+
+# Weather Data Analysis using Python & Pandas
+
+## Project Overview
+This project performs an Exploratory Data Analysis (EDA) on a real-world **Weather Dataset** using **Python** and **Pandas**. The main objective is to analyze historical weather records, clean the data, query specific conditions, and extract meaningful statistical insights regarding temperature, humidity, wind speed, visibility, and atmospheric pressure.
+
+---
+
+## Data Summary & Key Insights
+* **Dataset Size:** 8,784 hourly weather records with 8 numerical and categorical features.
+* **Data Quality:** Zero missing/null values across all columns (`isnull().sum() == 0`).
+* **Weather Conditions:** 50 unique weather conditions identified, with **Mainly Clear** and **Mostly Cloudy** being the most frequent.
+
+---
+
+## Key Questions & Technical Tasks Handled
+
+* **Unique Values Extraction:** Identified all 34 unique values for `Wind Speed_km/h`.
+* **Conditional Filtering:** Filtered specific weather conditions such as exact `Clear` weather (1,326 records) and `Wind Speed == 4 km/h` (474 records).
+* **Renaming Columns:** Renamed the `Weather` column to `Weather Condition` for better clarity.
+* **Statistical Metrics:** Calculated key statistical figures:
+  * **Mean Visibility:** `27.66 km`
+  * **Standard Deviation of Pressure:** `0.84 kPa`
+  * **Variance of Relative Humidity:** `286.25`
+* **Multi-Condition Querying:** Applied logical operators (`AND` / `OR`) to filter complex weather events (e.g., High Visibility > 40 km vs. Clear Weather with Relative Humidity > 50%).
+
+---
+
+## Tech Stack
+* **Library:** Pandas (Data Manipulation & Filtering)
+* **Environment:** Jupyter Notebook / Google Colab
+
+---
+
